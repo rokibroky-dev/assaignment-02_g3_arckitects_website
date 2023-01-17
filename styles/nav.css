@@ -1,0 +1,36 @@
+/* nav  */
+
+li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .section-width {
+    max-width: 192em;
+    margin: 0 auto;
+  }
+  .header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+  .header-nav li a {
+    font-size: 1.6em;
+    text-transform: capitalize;
+    color: var(--clr-primary-cursed-black);
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .header-nav li a:hover {
+    color: var(--clr-third-laddu-orange);
+  }
+  
+/* mobile nav section css */
+.mobile-nav-section {
+    display: none;
+  }
+  
